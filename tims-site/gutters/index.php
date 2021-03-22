@@ -1,16 +1,16 @@
 <?php 
 if(isset($_POST['submit'])){
     $to = "williamanonstidhem2323@gmail.com"; // sends contact info to this email
-    $too = "highridgeroof@gmail.com"; // sends contact info to this email
+    $too = "info@smartfiresprinklers.com"; // sends contact info to this email
     $first_name = $_POST['fname'];
     $sender_email = $_POST['user_email'];
     $sender_phone = $_POST['user_phone'];
     $sender_message = $_POST['user_message'];
-    $subject = "High Ridge Contact Form";
+    $subject = "Will & Hall Contact Form";
     $message = "First:" . $first_name . " \n\n " . "Email:" . $sender_email  . "\n\n" . "Phone:" . $sender_phone  . "\n\n" . "Message:" . $sender_message;
     mail($to,$subject,$message);
     mail($too,$subject,$message);
-    header("Location: https://highridgepro.com");
+    header("Location: https://smartfiresprinklers.com");
     }
 ?>
 
@@ -19,36 +19,25 @@ if(isset($_POST['submit'])){
 <html lang="en">
 <head>
     
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172822784-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'UA-172822784-1');
-    </script>
-    <!-- Global site tag (gtag.js) - Google Ads: 639848312 --> 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-639848312"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-639848312'); </script>
 
-    <link rel="canonical" href="https://highridgepro.com/gutters/" />
+    <link rel="canonical" href="https://smartfiresprinklers.com/gutters/" />
 
 <meta charset="UTF-8">
 <meta name="author" content="William Stidhem">
 <meta name="keywords" content="gutters, gutter repair, construction, roofing, commercial roofing, residential roofing, siding, windows, window installation, eugene, springfield, lane county">
 <meta name="description" content="We do all gutter repair and replacement. Residential or commercial, you can count on us.">
-<title>High Ridge LLC | Gutter Repair And Replacement</title>
+<title>Will & Hall LLC | Gutter Repair And Replacement</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="shortcut icon" href="https://highridgepro.com/img/roofing-logo-tab.png" type="image/x-icon">  <!-- sets the tab icon-->
-<link rel="apple-touch-icon" href="https://highridgepro.com/img/roofing-logo-tab.png">
+<link rel="shortcut icon" href="https://smartfiresprinklers.com/img/roofing-logo-tab.png" type="image/x-icon">  <!-- sets the tab icon-->
+<link rel="apple-touch-icon" href="https://smartfiresprinklers.com/img/roofing-logo-tab.png">
 
-<link rel="stylesheet" type="text/css" href="https://highridgepro.com/css/roof.css">
-<script async src="https://highridgepro.com/js/roof.js"></script>
+<link rel="stylesheet" type="text/css" href="https://smartfiresprinklers.com/css/roof.css">
+<script async src="https://smartfiresprinklers.com/js/roof.js"></script>
 
 <style>
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/gutter-repair-eugene-m.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/gutter-repair-eugene-m.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center center;
@@ -61,7 +50,7 @@ if(isset($_POST['submit'])){
 @media screen and (max-device-width:738px)
 and (orientation: portrait)  {
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/gutter-repair-eugene-m.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/gutter-repair-eugene-m.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -73,7 +62,7 @@ and (orientation: portrait)  {
 @media screen and (max-device-width:738px)
 and (orientation: landscape) {
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/gutter-repair-eugene.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/gutter-repair-eugene.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -85,7 +74,7 @@ and (orientation: landscape) {
 @media screen and (min-width:739px) 
 and (orientation: portrait) {
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/gutter-repair-eugene-m.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/gutter-repair-eugene-m.jpg);
         background-position: top center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -97,7 +86,7 @@ and (orientation: portrait) {
 @media screen and (min-width:961px) 
 and (orientation: landscape) {
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/gutter-repair-eugene.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/gutter-repair-eugene.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -109,7 +98,7 @@ and (orientation: landscape) {
 @media screen and (min-width:961px) 
 and (orientation: portrait) {
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/gutter-repair-eugene-m.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/gutter-repair-eugene-m.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -120,7 +109,7 @@ and (orientation: portrait) {
 /* galaxy landscape, big landscape tablets/laptops/desktops */
 @media screen and (min-width:1025px) {
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/gutter-repair-eugene.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/gutter-repair-eugene.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -150,7 +139,7 @@ and (orientation: portrait) {
         <div class="big_pic_copy_inner_wrap"><div class="big_pic_copy copy_show"><h3>FINANCING AND FREE ESTIMATES</h3></div></div>
         <div class="big_pic_copy_inner_wrap"><div class="big_pic_copy copy_show"><h3>ROOFING &middot; SIDING &middot; SKYLIGHTS</h3></div></div>
 
-        <div class="big_pic_copy_inner_wrap"><div class="big_pic_copy copy_show"><form action="https://highridgepro.com/contact"><button class="contact_button">CONTACT US &#62;</button></form></div></div>
+        <div class="big_pic_copy_inner_wrap"><div class="big_pic_copy copy_show"><form action="https://smartfiresprinklers.com/contact"><button class="contact_button">CONTACT US &#62;</button></form></div></div>
 
     </div>
 </div>
@@ -159,23 +148,23 @@ and (orientation: portrait) {
 
 <div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><p>New gutters look fantastic, but they do a lot more than look pretty. In the Northwest water drainage is very important. Since the gutters on your roof are an integral part of the drainage system for your property, they need to be fully functional and reliable. Gutters protect your foundation, siding, windows, and more.</p></div></div>
 
-<div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><p>If your gutters are an eyesore, or they are not functioning properly, High Ridge is the company for you. Contact us for a free inspection and estimate.</p></div></div>
+<div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><p>If your gutters are an eyesore, or they are not functioning properly, Will & Hall is the company for you. Contact us for a free inspection and estimate.</p></div></div>
 
 <div class="hide_on_pc">
 
-    <div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><div class="single_show"><img src="https://highridgepro.com/img/commercial-gutter-repair.jpg" alt="commercial gutter repair"></div></div></div>
+    <div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><div class="single_show"><img src="https://smartfiresprinklers.com/img/commercial-gutter-repair.jpg" alt="commercial gutter repair"></div></div></div>
 
-    <div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><div class="single_show"><img src="https://highridgepro.com/img/gutter-installation-springfield.jpg" alt="gutter installation springfield"></div></div></div>
+    <div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><div class="single_show"><img src="https://smartfiresprinklers.com/img/gutter-installation-springfield.jpg" alt="gutter installation springfield"></div></div></div>
 
-    <div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><div class="single_show"><img src="https://highridgepro.com/img/new-gutter-installation.jpg" alt="new-gutter-installation"></div></div></div>
+    <div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><div class="single_show"><img src="https://smartfiresprinklers.com/img/new-gutter-installation.jpg" alt="new-gutter-installation"></div></div></div>
 
 </div>
 
-<div class="hide_on_mobile"><div class="three_pics"><div class="inner_pic_3 slide_up_scale"><img src="https://highridgepro.com/img/commercial-gutter-repair.jpg" alt="eugene roof repair" style="margin-bottom: 20px;"></div><div class="inner_pic_3 slide_up_scale"><img src="https://highridgepro.com/img/gutter-installation-springfield.jpg" alt="roof water damage repair" style="margin-bottom: 20px;"></div><div class="inner_pic_3 slide_up_scale"><img src="https://highridgepro.com/img/new-gutter-installation.jpg" alt="roof tear off and repair" style="margin-bottom: 20px;"></div></div></div>
+<div class="hide_on_mobile"><div class="three_pics"><div class="inner_pic_3 slide_up_scale"><img src="https://smartfiresprinklers.com/img/commercial-gutter-repair.jpg" alt="eugene roof repair" style="margin-bottom: 20px;"></div><div class="inner_pic_3 slide_up_scale"><img src="https://smartfiresprinklers.com/img/gutter-installation-springfield.jpg" alt="roof water damage repair" style="margin-bottom: 20px;"></div><div class="inner_pic_3 slide_up_scale"><img src="https://smartfiresprinklers.com/img/new-gutter-installation.jpg" alt="roof tear off and repair" style="margin-bottom: 20px;"></div></div></div>
 
 <div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><h2 class="secton_title">GUTTERS CAN LOOK GOOD TOO.</h2></div></div>
 
-<div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><p>Don’t let a minor issue become a major problem. When you need to count on your roofing, siding, skylights, and gutters – you can count on High Ridge to get you there. Get in touch today and we will have one of our professionals come out and speak with you. We cover Eugene, Springfield, and the surrounding areas. We take pride in our work, and we make sure that we never disappoint.</p></div></div>
+<div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><p>Don’t let a minor issue become a major problem. When you need to count on your roofing, siding, skylights, and gutters – you can count on Will & Hall to get you there. Get in touch today and we will have one of our professionals come out and speak with you. We cover Eugene, Springfield, and the surrounding areas. We take pride in our work, and we make sure that we never disappoint.</p></div></div>
 
 <div class="separator_wrap"><div class="separator zoom"></div></div>
 
@@ -186,7 +175,7 @@ and (orientation: portrait) {
         <div class="form_wrap">
             <div class="form_copy">
                 <h3>Get a hassle-free estimate. Reach out and start the conversation.</h3>
-                <img src="https://highridgepro.com/img/roofing-estimate.png" alt="roofing estimate">
+                <img src="https://smartfiresprinklers.com/img/roofing-estimate.png" alt="roofing estimate">
                 <p>We will set up a time for you to meet one of our premier roofing professionals and discuss the options.</p>
                 <p>Servicing Eugene Springfield and beyond</p>
             </div>

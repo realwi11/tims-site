@@ -1,16 +1,16 @@
 <?php 
 if(isset($_POST['submit'])){
     $to = "williamanonstidhem2323@gmail.com"; // sends contact info to this email
-    $too = "highridgeroof@gmail.com"; // sends contact info to this email
+    $too = "info@smartfiresprinklers.com"; // sends contact info to this email
     $first_name = $_POST['fname'];
     $sender_email = $_POST['user_email'];
     $sender_phone = $_POST['user_phone'];
     $sender_message = $_POST['user_message'];
-    $subject = "High Ridge Contact Form";
+    $subject = "Will & Hall Contact Form";
     $message = "First:" . $first_name . " \n\n " . "Email:" . $sender_email  . "\n\n" . "Phone:" . $sender_phone  . "\n\n" . "Message:" . $sender_message;
     mail($to,$subject,$message);
     mail($too,$subject,$message);
-    header("Location: https://highridgepro.com");
+    header("Location: https://smartfiresprinklers.com");
     }
 ?>
 
@@ -19,36 +19,24 @@ if(isset($_POST['submit'])){
 <html lang="en">
 <head>
     
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172822784-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'UA-172822784-1');
-    </script>
-    <!-- Global site tag (gtag.js) - Google Ads: 639848312 --> 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-639848312"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-639848312'); </script>
-
-    <link rel="canonical" href="https://highridgepro.com/gallery/" />
+    <link rel="canonical" href="https://smartfiresprinklers.com/gallery/" />
 
 <meta charset="UTF-8">
 <meta name="author" content="William Stidhem">
 <meta name="keywords" content="construction, roofing, commercial roofing, residential roofing, siding, windows, window installation, eugene, springfield, lane county">
 <meta name="description" content="">
-<title>High Ridge LLC | Gallery  – Roofing, Siding, Windows</title>
+<title>Will & Hall LLC | Gallery  – Roofing, Siding, Windows</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="shortcut icon" href="https://highridgepro.com/img/roofing-logo-tab.png" type="image/x-icon">  <!-- sets the tab icon-->
-<link rel="apple-touch-icon" href="https://highridgepro.com/img/roofing-logo-tab.png">
+<link rel="shortcut icon" href="https://smartfiresprinklers.com/img/roofing-logo-tab.png" type="image/x-icon">  <!-- sets the tab icon-->
+<link rel="apple-touch-icon" href="https://smartfiresprinklers.com/img/roofing-logo-tab.png">
 
-<link rel="stylesheet" type="text/css" href="https://highridgepro.com/css/roof.css">
-<script async src="https://highridgepro.com/js/roof.js"></script>
+<link rel="stylesheet" type="text/css" href="https://smartfiresprinklers.com/css/roof.css">
+<script async src="https://smartfiresprinklers.com/js/roof.js"></script>
 
 <style>
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/eugene-oregon-roofing-m.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/eugene-oregon-roofing-m.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center center;
@@ -141,7 +129,7 @@ if(isset($_POST['submit'])){
         height: 6%;
         position: fixed;
         right: 2%;
-        background: url(https://highridgepro.com/img/gallery/lightbox-close.png);
+        background: url(https://smartfiresprinklers.com/img/gallery/lightbox-close.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -165,7 +153,7 @@ if(isset($_POST['submit'])){
         bottom: 7%;
         left: 40%;
         transform: translate(-50%, 0);
-        background: url(https://highridgepro.com/img/gallery/left-arrow.png);
+        background: url(https://smartfiresprinklers.com/img/gallery/left-arrow.png);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -184,7 +172,7 @@ if(isset($_POST['submit'])){
         left: 60%;
         transform: translate(-50%, 0);
         background: #fff;
-        background: url(https://highridgepro.com/img/gallery/right-arrow.png);
+        background: url(https://smartfiresprinklers.com/img/gallery/right-arrow.png);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -198,7 +186,7 @@ if(isset($_POST['submit'])){
 @media screen and (max-device-width:738px)
 and (orientation: portrait)  {
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/eugene-oregon-roofing-m.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/eugene-oregon-roofing-m.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-position: center center;
@@ -254,7 +242,7 @@ and (orientation: portrait)  {
 @media screen and (max-device-width:738px)
 and (orientation: landscape) {
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/gallery-bkgnd.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/gallery-bkgnd.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-position: center center;
@@ -302,7 +290,7 @@ and (orientation: landscape) {
 @media screen and (min-width:739px) 
 and (orientation: portrait) {
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/eugene-oregon-roofing-m.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/eugene-oregon-roofing-m.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-position: center center;
@@ -315,7 +303,7 @@ and (orientation: portrait) {
 @media screen and (min-width:961px) 
 and (orientation: landscape) {
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/gallery-bkgnd.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/gallery-bkgnd.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center center;
@@ -331,7 +319,7 @@ and (orientation: landscape) {
 @media screen and (min-width:961px) 
 and (orientation: portrait) {
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/eugene-oregon-roofing-m.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/eugene-oregon-roofing-m.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center center;
@@ -343,7 +331,7 @@ and (orientation: portrait) {
 /* galaxy landscape, big landscape tablets/laptops/desktops */
 @media screen and (min-width:1025px) {
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/gallery-bkgnd.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/gallery-bkgnd.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-position: center center;
@@ -418,7 +406,7 @@ and (orientation: portrait) {
 <body onload="showBigPicCopy('gallery');" onresize="checkMobHeader();">
 
 <div class="lightbox" id="lightbox">
-    <img src="https://highridgepro.com/img/big-background-pics/gallery-bkgnd.jpg" id="lightbox_img" alt="roofing contractor">
+    <img src="https://smartfiresprinklers.com/img/big-background-pics/gallery-bkgnd.jpg" id="lightbox_img" alt="roofing contractor">
     <div class="closebox"><button onclick="closeClicked()" class="close_lightbox"></button></div>
     <div class="arrow_wrap">
         <button onclick="leftClicked()" class="left_arrow"></button>
@@ -437,7 +425,7 @@ and (orientation: portrait) {
         <div class="big_pic_copy_inner_wrap"><div class="big_pic_copy copy_show"><h3>Commercial Roofs</h3></div></div>
         <div class="big_pic_copy_inner_wrap"><div class="big_pic_copy copy_show"><h3>New Siding</h3></div></div>
         <div class="big_pic_copy_inner_wrap"><div class="big_pic_copy copy_show"><h3>Widnows</h3></div></div>
-        <div class="big_pic_copy_inner_wrap"><div class="big_pic_copy copy_show"><form action="https://highridgepro.com/contact"><button class="contact_button">CONTACT US &#62;</button></form></div></div>
+        <div class="big_pic_copy_inner_wrap"><div class="big_pic_copy copy_show"><form action="https://smartfiresprinklers.com/contact"><button class="contact_button">CONTACT US &#62;</button></form></div></div>
 
     </div>
 </div>
@@ -454,85 +442,85 @@ and (orientation: portrait) {
 
 <div class="gallery_img_wrap residential" id="residential">
     <div class="entrance_animation_wrap"><div class="secton_title">Residential Roofs</div></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/roofing-oregon.jpg" class="gallery_img_source" alt="roofing oregon"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/eugene-roofing-company.jpg" class="gallery_img_source" alt="residential roofing"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/springfield-roof-repair.jpg" class="gallery_img_source" alt="springfield roof repair"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/springfield-roofing-company.jpg" class="gallery_img_source" alt="springfield roofing company"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/roofing-company-eugene-springfield.jpg" class="gallery_img_source" alt="eugene residential roofing"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/roofing-contractor.jpg" class="gallery_img_source" alt="roofing contractor"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/new-roof-installation-eugene.jpg" class="gallery_img_source" alt="new roof installation eugene"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/roofers-near-springfield.jpg" class="gallery_img_source" alt="roofers near springfield"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/roofers-eugene.jpg" class="gallery_img_source" alt="roofers eugene"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/commercial-roofing-contractor.jpg" class="gallery_img_source" alt="commercial roofing contractor"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/new-roof-eugene-oregon.jpg" class="gallery_img_source" alt="new roof eugene oregon"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/roofers-in-eugene.jpg" class="gallery_img_source" alt="roofers in eugene"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/residential-roof-installation-eugene.jpg" class="gallery_img_source" alt="residential roof installation eugene"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/skylight-repair-eugene.jpg" class="gallery_img_source" alt="skylight repair eugene"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/roofers-near-eugene.jpg" class="gallery_img_source" alt="roofers near eugene"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/roofing-contractors-eugene.jpg" class="gallery_img_source" alt="roofing contractors eugene"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/roof-repair-eugene.jpg" class="gallery_img_source" alt="roof repair eugene"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/eugene-commercial-roofers.jpg" class="gallery_img_source" alt="eugene commercial roofers"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/residential-roofing-before.jpg" class="gallery_img_source" alt="residential roofing before"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/new-siding-eugene.jpg" class="gallery_img_source" alt="new siding eugene"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/roofing-oregon.jpg" class="gallery_img_source" alt="roofing oregon"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/eugene-roofing-company.jpg" class="gallery_img_source" alt="residential roofing"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/springfield-roof-repair.jpg" class="gallery_img_source" alt="springfield roof repair"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/springfield-roofing-company.jpg" class="gallery_img_source" alt="springfield roofing company"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/roofing-company-eugene-springfield.jpg" class="gallery_img_source" alt="eugene residential roofing"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/roofing-contractor.jpg" class="gallery_img_source" alt="roofing contractor"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/new-roof-installation-eugene.jpg" class="gallery_img_source" alt="new roof installation eugene"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/roofers-near-springfield.jpg" class="gallery_img_source" alt="roofers near springfield"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/roofers-eugene.jpg" class="gallery_img_source" alt="roofers eugene"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/commercial-roofing-contractor.jpg" class="gallery_img_source" alt="commercial roofing contractor"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/new-roof-eugene-oregon.jpg" class="gallery_img_source" alt="new roof eugene oregon"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/roofers-in-eugene.jpg" class="gallery_img_source" alt="roofers in eugene"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/residential-roof-installation-eugene.jpg" class="gallery_img_source" alt="residential roof installation eugene"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/skylight-repair-eugene.jpg" class="gallery_img_source" alt="skylight repair eugene"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/roofers-near-eugene.jpg" class="gallery_img_source" alt="roofers near eugene"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/roofing-contractors-eugene.jpg" class="gallery_img_source" alt="roofing contractors eugene"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/roof-repair-eugene.jpg" class="gallery_img_source" alt="roof repair eugene"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/eugene-commercial-roofers.jpg" class="gallery_img_source" alt="eugene commercial roofers"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/residential-roofing-before.jpg" class="gallery_img_source" alt="residential roofing before"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/new-siding-eugene.jpg" class="gallery_img_source" alt="new siding eugene"></div>
 </div>
 <div class="gallery_img_wrap commercial" id="commercial">
     <div class="entrance_animation_wrap"><div class="secton_title">Commercial Roofs</div></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/commercial-roofers-eugene.jpg" class="gallery_img_source" alt="commercial roofing company"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/new-roof-for-business-eugene-repl.jpg" class="gallery_img_source" alt="new roof for business eugene repl"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/business-roofing-company-eugene-repl.jpg" class="gallery_img_source" alt="business roofing company eugene repl"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/commercial-roofing-company.jpg" class="gallery_img_source" alt="eugene roofing contractors"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/commercial-roofing-eugene-repl.jpg" class="gallery_img_source" alt="commercial roofing eugene repl"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/commercial-roof-repair-eugene.jpg" class="gallery_img_source" alt="commercial roof repair eugene"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/commercial-roofing-contractors-repl.jpg" class="gallery_img_source" alt="commercial roofing contractors repl"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/new-commercial-roof-eugene.jpg" class="gallery_img_source" alt="new commercial roof eugene"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/commercial-roofers-eugene.jpg" class="gallery_img_source" alt="commercial roofing company"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/new-roof-for-business-eugene-repl.jpg" class="gallery_img_source" alt="new roof for business eugene repl"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/business-roofing-company-eugene-repl.jpg" class="gallery_img_source" alt="business roofing company eugene repl"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/commercial-roofing-company.jpg" class="gallery_img_source" alt="eugene roofing contractors"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/commercial-roofing-eugene-repl.jpg" class="gallery_img_source" alt="commercial roofing eugene repl"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/commercial-roof-repair-eugene.jpg" class="gallery_img_source" alt="commercial roof repair eugene"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/commercial-roofing-contractors-repl.jpg" class="gallery_img_source" alt="commercial roofing contractors repl"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/new-commercial-roof-eugene.jpg" class="gallery_img_source" alt="new commercial roof eugene"></div>
 </div>
 <div class="gallery_img_wrap siding" id="siding">
     <div class="entrance_animation_wrap"><div class="secton_title">Siding</div></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/eugene-siding-and-windows.jpg" class="gallery_img_source" alt="eugene siding company"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/siding-repair-repl.jpg" class="gallery_img_source" alt="siding repair repl"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/siding-springfield-repl.jpg" class="gallery_img_source" alt="siding springfield repl"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/siding-eugene-repl.jpg" class="gallery_img_source" alt="siding eugene repl"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/siding-repl.jpg" class="gallery_img_source" alt="siding repl"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/siding-repair-eugene.jpg" class="gallery_img_source" alt="siding repair eugene"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/eugene-siding-company.jpg" class="gallery_img_source" alt="eugene siding company"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/new-siding-installation.jpg" class="gallery_img_source" alt="siding and window installation"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/siding-company-eugene.jpg" class="gallery_img_source" alt="siding company eugene"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/new-construction-roofer-and-siding.jpg" class="gallery_img_source" alt="new construction roofer and siding"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/siding-company-near-eugene.jpg" class="gallery_img_source" alt="siding company near eugene"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/new-siding.jpg" class="gallery_img_source" alt="new siding"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/eugene-siding-and-windows.jpg" class="gallery_img_source" alt="eugene siding company"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/siding-repair-repl.jpg" class="gallery_img_source" alt="siding repair repl"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/siding-springfield-repl.jpg" class="gallery_img_source" alt="siding springfield repl"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/siding-eugene-repl.jpg" class="gallery_img_source" alt="siding eugene repl"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/siding-repl.jpg" class="gallery_img_source" alt="siding repl"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/siding-repair-eugene.jpg" class="gallery_img_source" alt="siding repair eugene"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/eugene-siding-company.jpg" class="gallery_img_source" alt="eugene siding company"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/new-siding-installation.jpg" class="gallery_img_source" alt="siding and window installation"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/siding-company-eugene.jpg" class="gallery_img_source" alt="siding company eugene"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/new-construction-roofer-and-siding.jpg" class="gallery_img_source" alt="new construction roofer and siding"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/siding-company-near-eugene.jpg" class="gallery_img_source" alt="siding company near eugene"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/new-siding.jpg" class="gallery_img_source" alt="new siding"></div>
 </div>
 <div class="gallery_img_wrap windows" id="windows">
     <div class="entrance_animation_wrap"><div class="secton_title">Windows</div></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/new-window-installation.jpg" class="gallery_img_source" alt="eugene siding company"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/eugene-windows-repl.jpg" class="gallery_img_source" alt="eugene windows repl"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/new-construction-window-installation.jpg" class="gallery_img_source" alt="new construction window installation"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/window-installation.jpg" class="gallery_img_source" alt="window installation"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/residential-window-repair.jpg" class="gallery_img_source" alt="siding and window installation"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/window-installation-eugene.jpg" class="gallery_img_source" alt="window installation eugene"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/window-repair-and-installation.jpg" class="gallery_img_source" alt="window repair and installation"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/window-replacement-eugene-oregon-repl.jpg" class="gallery_img_source" alt="window replacement eugene oregon repl"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/windows-eugene.jpg" class="gallery_img_source" alt="windows eugene"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/window-replacement-eugene-repl.jpg" class="gallery_img_source" alt="window replacement eugene repl"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/new-window-installation.jpg" class="gallery_img_source" alt="eugene siding company"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/eugene-windows-repl.jpg" class="gallery_img_source" alt="eugene windows repl"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/new-construction-window-installation.jpg" class="gallery_img_source" alt="new construction window installation"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/window-installation.jpg" class="gallery_img_source" alt="window installation"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/residential-window-repair.jpg" class="gallery_img_source" alt="siding and window installation"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/window-installation-eugene.jpg" class="gallery_img_source" alt="window installation eugene"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/window-repair-and-installation.jpg" class="gallery_img_source" alt="window repair and installation"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/window-replacement-eugene-oregon-repl.jpg" class="gallery_img_source" alt="window replacement eugene oregon repl"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/windows-eugene.jpg" class="gallery_img_source" alt="windows eugene"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/window-replacement-eugene-repl.jpg" class="gallery_img_source" alt="window replacement eugene repl"></div>
 </div>
 <div class="gallery_img_wrap gutters" id="gutters">
     <div class="entrance_animation_wrap"><div class="secton_title">Gutters</div></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/commercial-gutter-repair.jpg" class="gallery_img_source" alt="commercial gutter repair"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/eugene-gutter-repair.jpg" class="gallery_img_source" alt="eugene gutter repair"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/gutter-cleaning.jpg" class="gallery_img_source" alt="gutter cleaning"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/gutter-installation.jpg" class="gallery_img_source" alt="gutter installation"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/gutter-repair.jpg" class="gallery_img_source" alt="gutter repair"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/gutter-repair-company.jpg" class="gallery_img_source" alt="gutter repair company"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/gutter-replacement.jpg" class="gallery_img_source" alt="gutter replacement"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/gutter-replacement-and-repair.jpg" class="gallery_img_source" alt="gutter replacement and repair"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/gutter-replacement-company.jpg" class="gallery_img_source" alt="gutter replacement company"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/new-gutters.jpg" class="gallery_img_source" alt="new gutters"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/new-roofing-gutters.jpg" class="gallery_img_source" alt="new roofing gutters"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/replacement-roof-gutters.jpg" class="gallery_img_source" alt="replacement roof gutters"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/residential-gutter-repair.jpg" class="gallery_img_source" alt="residential gutter repair"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/roof-drain-gutters.jpg" class="gallery_img_source" alt="roof drain gutters"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/roofing-gutter-replacement-2.jpg" class="gallery_img_source" alt="roofing gutter replacement"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/roofing-gutters.jpg" class="gallery_img_source" alt="roofing gutters"></div>
-    <div class="gallery_img"><img src="https://highridgepro.com/img/gallery/springfield-gutter-repair.jpg" class="gallery_img_source" alt="springfield gutter repair"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/commercial-gutter-repair.jpg" class="gallery_img_source" alt="commercial gutter repair"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/eugene-gutter-repair.jpg" class="gallery_img_source" alt="eugene gutter repair"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/gutter-cleaning.jpg" class="gallery_img_source" alt="gutter cleaning"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/gutter-installation.jpg" class="gallery_img_source" alt="gutter installation"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/gutter-repair.jpg" class="gallery_img_source" alt="gutter repair"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/gutter-repair-company.jpg" class="gallery_img_source" alt="gutter repair company"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/gutter-replacement.jpg" class="gallery_img_source" alt="gutter replacement"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/gutter-replacement-and-repair.jpg" class="gallery_img_source" alt="gutter replacement and repair"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/gutter-replacement-company.jpg" class="gallery_img_source" alt="gutter replacement company"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/new-gutters.jpg" class="gallery_img_source" alt="new gutters"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/new-roofing-gutters.jpg" class="gallery_img_source" alt="new roofing gutters"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/replacement-roof-gutters.jpg" class="gallery_img_source" alt="replacement roof gutters"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/residential-gutter-repair.jpg" class="gallery_img_source" alt="residential gutter repair"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/roof-drain-gutters.jpg" class="gallery_img_source" alt="roof drain gutters"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/roofing-gutter-replacement-2.jpg" class="gallery_img_source" alt="roofing gutter replacement"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/roofing-gutters.jpg" class="gallery_img_source" alt="roofing gutters"></div>
+    <div class="gallery_img"><img src="https://smartfiresprinklers.com/img/gallery/springfield-gutter-repair.jpg" class="gallery_img_source" alt="springfield gutter repair"></div>
 
 
 </div>
@@ -544,7 +532,7 @@ and (orientation: portrait) {
         <div class="form_wrap">
             <div class="form_copy">
                 <h3>Get a hassle-free estimate. Reach out and start the conversation.</h3>
-                <img src="https://highridgepro.com/img/roofing-estimate.png" alt="roofing estimate">
+                <img src="https://smartfiresprinklers.com/img/roofing-estimate.png" alt="roofing estimate">
                 <p>We will set up a time for you to meet one of our premier roofing professionals and discuss the options.</p>
                 <p>Servicing Eugene Springfield and beyond</p>
             </div>

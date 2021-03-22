@@ -99,7 +99,7 @@ html{
     top: -100vh;
     left: 0;
     background-repeat: no-repeat;
-    background:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),url(https://highridgepro.com/img/roofing-menu.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),url(https://smartfiresprinklers.com/img/roofing-menu.jpg);
     background-position: center;
     padding-bottom: 10vh;
     margin: auto;
@@ -591,7 +591,7 @@ p{
 .big_pic{
     width: 100%;
     height: 100vh;
-    background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/siding/new-siding-installation.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/siding/new-siding-installation.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -1399,7 +1399,7 @@ and (orientation: portrait) {
     .roof_pc_header{display: none;}
     
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/eugene-oregon-roofing-6.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/eugene-oregon-roofing-6.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1560,7 +1560,7 @@ and (orientation: portrait) {
     .roof_pc_header{display: inline-block;}
 
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/eugene-oregon-roofing-6.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/eugene-oregon-roofing-6.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;

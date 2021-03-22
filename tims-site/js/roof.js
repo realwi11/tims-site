@@ -176,7 +176,7 @@ function mobileMenuButtonClicked(){             //show the mobile menu table
 }
 
 function pageSelected(pageIn){
-    var newPage = "https://highridgepro.com/" + pageIn;
+    var newPage = "https://smartfiresprinklers.com/" + pageIn;
     window.location.href = newPage;
 }
 

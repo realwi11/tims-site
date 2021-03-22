@@ -1,16 +1,16 @@
 <?php 
 if(isset($_POST['submit'])){
     $to = "williamanonstidhem2323@gmail.com"; // sends contact info to this email
-    $too = "highridgeroof@gmail.com";
+    $too = "info@smartfiresprinklers.com";
     $first_name = $_POST['fname'];
     $sender_email = $_POST['user_email'];
     $sender_phone = $_POST['user_phone'];
     $sender_message = $_POST['user_message'];
-    $subject = "High Ridge Contact Form";
+    $subject = "Will & Hall Contact Form";
     $message = "First: " . $first_name . " \n\n " . "Email: " . $sender_email  . "\n\n" . "Phone: " . $sender_phone  . "\n\n" . "Message: " . $sender_message . "\n\n" . "From Roof Repair Page";
     mail($to,$subject,$message);
     mail($too,$subject,$message);
-    header("Location: https://highridgepro.com");
+    header("Location: https://smartfiresprinklers.com");
     }
 ?>
 
@@ -19,46 +19,25 @@ if(isset($_POST['submit'])){
 <html lang="en">
 <head>
     
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127720297-4"></script>-->
-    <!--<script>-->
-    <!--window.dataLayer = window.dataLayer || [];-->
-    <!--function gtag(){dataLayer.push(arguments);}-->
-    <!--gtag('js', new Date());-->
-    
-    <!--gtag('config', 'UA-127720297-4');-->
-    <!--</script>-->
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172822784-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'UA-172822784-1');
-    </script>
-    <!-- Global site tag (gtag.js) - Google Ads: 639848312 --> 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-639848312"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-639848312'); </script>
 
-    <link rel="canonical" href="https://highridgepro.com/roof-repair/" />
+    <link rel="canonical" href="https://smartfiresprinklers.com/roof-repair/" />
 
 <meta charset="UTF-8">
 <meta name="author" content="William Stidhem">
 <meta name="keywords" content="construction, roofing, commercial roofing, residential roofing, siding, windows, window installation, eugene, springfield, lane county">
 <meta name="description" content="Professional roof repair in the Eugene Springfield area">
-<title>High Ridge LLC | Residential And Commercial Roof Repair</title>
+<title>Will & Hall LLC | Residential And Commercial Roof Repair</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="shortcut icon" href="https://highridgepro.com/img/roofing-logo-tab.png" type="image/x-icon">  <!-- sets the tab icon-->
-<link rel="apple-touch-icon" href="https://highridgepro.com/img/roofing-logo-tab.png">
+<link rel="shortcut icon" href="https://smartfiresprinklers.com/img/roofing-logo-tab.png" type="image/x-icon">  <!-- sets the tab icon-->
+<link rel="apple-touch-icon" href="https://smartfiresprinklers.com/img/roofing-logo-tab.png">
 
-<link rel="stylesheet" type="text/css" href="https://highridgepro.com/css/roof.css">
-<script async src="https://highridgepro.com/js/roof.js"></script>
+<link rel="stylesheet" type="text/css" href="https://smartfiresprinklers.com/css/roof.css">
+<script async src="https://smartfiresprinklers.com/js/roof.js"></script>
 
 <style>
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/roof-repair-in-eugene-springfield-2m.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/roof-repair-in-eugene-springfield-2m.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center center;
@@ -71,7 +50,7 @@ if(isset($_POST['submit'])){
 @media screen and (max-device-width:738px)
 and (orientation: portrait)  {
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/roof-repair-in-eugene-springfield-2m.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/roof-repair-in-eugene-springfield-2m.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -83,7 +62,7 @@ and (orientation: portrait)  {
 @media screen and (max-device-width:738px)
 and (orientation: landscape) {
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/roof-reapir-in-eugene-springfield-2.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/roof-reapir-in-eugene-springfield-2.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -95,7 +74,7 @@ and (orientation: landscape) {
 @media screen and (min-width:739px) 
 and (orientation: portrait) {
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/roof-repair-in-eugene-springfield-2m.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/roof-repair-in-eugene-springfield-2m.jpg);
         background-position: top center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -107,7 +86,7 @@ and (orientation: portrait) {
 @media screen and (min-width:961px) 
 and (orientation: landscape) {
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/roof-reapir-in-eugene-springfield-2.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/roof-reapir-in-eugene-springfield-2.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -119,7 +98,7 @@ and (orientation: landscape) {
 @media screen and (min-width:961px) 
 and (orientation: portrait) {
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/roof-repair-in-eugene-springfield-2m.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/roof-repair-in-eugene-springfield-2m.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -130,7 +109,7 @@ and (orientation: portrait) {
 /* galaxy landscape, big landscape tablets/laptops/desktops */
 @media screen and (min-width:1025px) {
     .big_pic{
-        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://highridgepro.com/img/big-background-pics/roof-reapir-in-eugene-springfield-2.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://smartfiresprinklers.com/img/big-background-pics/roof-reapir-in-eugene-springfield-2.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -160,7 +139,7 @@ and (orientation: portrait) {
         <div class="big_pic_copy_inner_wrap"><div class="big_pic_copy copy_show"><h3>FINANCING AND FREE ESTIMATES</h3></div></div>
         <div class="big_pic_copy_inner_wrap"><div class="big_pic_copy copy_show"><h3>ROOFING &middot; SIDING &middot; SKYLIGHTS</h3></div></div>
 
-        <div class="big_pic_copy_inner_wrap"><div class="big_pic_copy copy_show"><form action="https://highridgepro.com/contact"><button class="contact_button">CONTACT US &#62;</button></form></div></div>
+        <div class="big_pic_copy_inner_wrap"><div class="big_pic_copy copy_show"><form action="https://smartfiresprinklers.com/contact"><button class="contact_button">CONTACT US &#62;</button></form></div></div>
 
     </div>
 </div>
@@ -169,23 +148,23 @@ and (orientation: portrait) {
 
 <div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><p>Staying on top of roof repair and roof maintenance can save you a lot of money in the long run. When it comes to roofs, a small flaw or minor damage has a tendency to get a lot worse when ignored. Don’t let your roofing issues compound.</p></div></div>
 
-<div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><p>High Ridge offers a wide variety of maintenance methods for commercial and residential roofs. We know how to combat algae and moss. We know how to mend a weather damaged roof. We will find and fix any issues quickly, so you can stay about your business. From gutters and flashing to shingles and vents, High Ridge has your roof covered.</p></div></div>
+<div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><p>Will & Hall offers a wide variety of maintenance methods for commercial and residential roofs. We know how to combat algae and moss. We know how to mend a weather damaged roof. We will find and fix any issues quickly, so you can stay about your business. From gutters and flashing to shingles and vents, Will & Hall has your roof covered.</p></div></div>
 
 <div class="hide_on_pc">
 
-    <div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><div class="single_show"><img src="https://highridgepro.com/img/eugene-roof-repair.jpg" alt="eugene roof repair"></div></div></div>
+    <div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><div class="single_show"><img src="https://smartfiresprinklers.com/img/eugene-roof-repair.jpg" alt="eugene roof repair"></div></div></div>
 
-    <div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><div class="single_show"><img src="https://highridgepro.com/img/ceiling-water-damage.jpg" alt="roof water damage repair"></div></div></div>
+    <div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><div class="single_show"><img src="https://smartfiresprinklers.com/img/ceiling-water-damage.jpg" alt="roof water damage repair"></div></div></div>
 
-    <div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><div class="single_show"><img src="https://highridgepro.com/img/roof-tear-off.jpg" alt="roof tear off and repair"></div></div></div>
+    <div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><div class="single_show"><img src="https://smartfiresprinklers.com/img/roof-tear-off.jpg" alt="roof tear off and repair"></div></div></div>
 
 </div>
 
-<div class="hide_on_mobile"><div class="three_pics"><div class="inner_pic_3 slide_up_scale"><img src="https://highridgepro.com/img/eugene-roof-repair.jpg" alt="eugene roof repair" style="margin-bottom: 20px;"></div><div class="inner_pic_3 slide_up_scale"><img src="https://highridgepro.com/img/ceiling-water-damage.jpg" alt="roof water damage repair" style="margin-bottom: 20px;"></div><div class="inner_pic_3 slide_up_scale"><img src="https://highridgepro.com/img/roof-tear-off.jpg" alt="roof tear off and repair" style="margin-bottom: 20px;"></div></div></div>
+<div class="hide_on_mobile"><div class="three_pics"><div class="inner_pic_3 slide_up_scale"><img src="https://smartfiresprinklers.com/img/eugene-roof-repair.jpg" alt="eugene roof repair" style="margin-bottom: 20px;"></div><div class="inner_pic_3 slide_up_scale"><img src="https://smartfiresprinklers.com/img/ceiling-water-damage.jpg" alt="roof water damage repair" style="margin-bottom: 20px;"></div><div class="inner_pic_3 slide_up_scale"><img src="https://smartfiresprinklers.com/img/roof-tear-off.jpg" alt="roof tear off and repair" style="margin-bottom: 20px;"></div></div></div>
 
 <div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><h2 class="secton_title">STAY ON TOP OF REGULAR ROOF MAINTENANCE</h2></div></div>
 
-<div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><p>If there is a problem with your residential or commercial roof, High Ridge Roofing And Construction LLC is your solution. Roof repair and maintenance services are available for all types of roofs. We even offer 24-hour emergency roof repair services, because we know how important it is to safeguard your family and employees at all times. Let our roofing contractors make your life a whole lot easier.</p></div></div>
+<div class="entrance_animation_wrap"><div class="entrance_animation slide_up"><p>If there is a problem with your residential or commercial roof, Will & Hall Roofing And Construction LLC is your solution. Roof repair and maintenance services are available for all types of roofs. We even offer 24-hour emergency roof repair services, because we know how important it is to safeguard your family and employees at all times. Let our roofing contractors make your life a whole lot easier.</p></div></div>
 
 <div class="separator_wrap"><div class="separator zoom"></div></div>
 
@@ -196,7 +175,7 @@ and (orientation: portrait) {
         <div class="form_wrap">
             <div class="form_copy">
                 <h3>Get a hassle-free estimate. Reach out and start the conversation.</h3>
-                <img src="https://highridgepro.com/img/roofing-estimate.png" alt="roofing estimate">
+                <img src="https://smartfiresprinklers.com/img/roofing-estimate.png" alt="roofing estimate">
                 <p>We will set up a time for you to meet one of our premier roofing professionals and discuss the options.</p>
                 <p>Servicing Eugene Springfield and beyond</p>
             </div>

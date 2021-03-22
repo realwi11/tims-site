@@ -4,8 +4,8 @@ RewriteRule ^(.*) https://%{SERVER_NAME}/$1 [R,L]
 
 
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www\.highridgepro\.com [NC]
-RewriteRule ^(.*)$ http://highridgepro.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^www\.smartfiresprinklers\.com [NC]
+RewriteRule ^(.*)$ http://smartfiresprinklers.com/$1 [L,R=301]
 
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
